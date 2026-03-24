@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Weather Dashboard
 
 A **responsive weather dashboard** that fetches real-time weather data and a 5-day forecast using the OpenWeatherMap API.
@@ -20,3 +21,7 @@ A **responsive weather dashboard** that fetches real-time weather data and a 5-d
 1. Clone the repo:
    ```bash
    git clone https://github.com/mworiakelvin14-oss/weather-dashboard.git
+=======
+# weather-app
+responsive weather dashboard that fetches real-time weather data and a 5-day forecast using the OpenWeatherMap API.
+>>>>>>> f61c22283e72d3b438b69f17d74ad42258a735ed
