@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Weather Dashboard</h1>
+      <button id="toggle-theme">🌙 Dark Mode</button>
+    </header>
+    <main>
+      <div class="search">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="weather-info" class="hidden"></div>
+      <div id="forecast" class="hidden"></div>
+      <div id="recent-searches">
+        <h3>Recent Searches</h3>
+        <ul id="search-list"></ul>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
